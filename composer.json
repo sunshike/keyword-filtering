@@ -1,0 +1,21 @@
+{
+    "name": "sunshike/keyword-filtering",
+    "description": "这是一个关键词过滤项目",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sunshike\\KeywordFiltering\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sunshike",
+            "email": "ssk@mtt.ltd"
+        }
+    ],
+    "minimum-stability": "dev"
+}
