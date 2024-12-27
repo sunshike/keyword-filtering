@@ -1,6 +1,6 @@
 <?php
 
-namespace   sunshike\verify;//要与composer.json   "Oneinit\\":"src/"  对应
+namespace   Sunshike\KeywordFiltering;//要与composer.json   "Oneinit\\":"src/"  对应
 
 /**
  * 校验工具类，如验证ip、手机、邮箱等等
@@ -33,7 +33,10 @@ class Verify
     }
 
 
-    // 说明： 验证邮箱格式
+    /**说明： 验证邮箱格式
+     * @param $email
+     * @return bool
+     */
     function isValidEmail($email)
     {
         $check = false;
